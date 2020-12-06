@@ -8,4 +8,4 @@
     - Card
 
 ## ScreenShots
-![ss01]("images/face.jpg")
+![ss-chapter05-01](https://user-images.githubusercontent.com/7794917/101270097-170ae700-37b9-11eb-9eda-226c833b06a6.png)
