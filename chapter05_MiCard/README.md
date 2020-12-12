@@ -8,5 +8,4 @@
 2. HotReload / HotRestart の違いと使い方
 
 ## ScreenShots
-![ss-chapter05-01](https://user-images.githubusercontent.com/7794917/101270097-170ae700-37b9-11eb-9eda-226c833b06a6.png)
-<img src="https://user-images.githubusercontent.com/7794917/101270097-170ae700-37b9-11eb-9eda-226c833b06a6.png" width="100">
+<img src="https://user-images.githubusercontent.com/7794917/101270097-170ae700-37b9-11eb-9eda-226c833b06a6.png" width="300">
