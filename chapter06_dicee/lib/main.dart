@@ -22,6 +22,7 @@ class DicePage extends StatefulWidget {
 }
 
 class _DicePageState extends State<DicePage> {
+  // サイコロの目を格納する変数の初期化
   var leftDiceNumber = 1;
   var rightDiceNumber = 1;
 
@@ -42,7 +43,6 @@ class _DicePageState extends State<DicePage> {
             child: FlatButton(
               onPressed: () {
                 changeDiceFace();
-                print('Left Button was tapped. $leftDiceNumber');
               },
               child: Image.asset('images/dice$leftDiceNumber.png'),
             ),
@@ -51,7 +51,6 @@ class _DicePageState extends State<DicePage> {
             child: FlatButton(
               onPressed: () {
                 changeDiceFace();
-                print('Left Button was tapped. $rightDiceNumber');
               },
               child: Image.asset('images/dice$rightDiceNumber.png'),
             ),

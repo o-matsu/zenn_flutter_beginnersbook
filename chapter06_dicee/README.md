@@ -7,5 +7,5 @@
 2. 関数の扱い
 3. Stateless / Stateful の違い
 
-## ScreenShots
+## Screenshot
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/dicee-demo.gif)
