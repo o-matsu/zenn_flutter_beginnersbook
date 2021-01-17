@@ -4,31 +4,18 @@ class QuizBrain {
   int _questionNumber = 0;
 
   List<Question> _questionBank = [
-    Question('Some cats are actually allergic to humans', true),
-    Question('You can lead a cow down stairs but not up stairs.', false),
-    Question('Approximately one quarter of human bones are in the feet.', true),
-    Question('A slug\'s blood is green.', true),
-    Question('Buzz Aldrin\'s mother\'s maiden name was \"Moon\".', true),
-    Question('It is illegal to pee in the Ocean in Portugal.', true),
-    Question(
-        'No piece of square dry paper can be folded in half more than 7 times.',
-        false),
-    Question(
-        'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.',
-        true),
-    Question(
-        'The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.',
-        false),
-    Question(
-        'The total surface area of two human lungs is approximately 70 square metres.',
-        true),
-    Question('Google was originally called \"Backrub\".', true),
-    Question(
-        'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.',
-        true),
-    Question(
-        'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
-        true),
+    Question('キリンの睡眠時間は一日6時間である', false),
+    Question('パンダは鳴くことがある', true),
+    Question('コアラの指には人間のように指紋がある', true),
+    Question('ジャイアントパンダのしっぽの色は黒である', false),
+    Question('フラミンゴが片足で立っているのはバランスをとるためである', false),
+    Question('キリンの舌の色は人間のような赤色である', false),
+    Question('ウサギの耳は温度調整する機能がある', true),
+    Question('フクロウには耳がない', false),
+    Question('鹿の胃は『4つ』ある', true),
+    Question('馬は鼻でしか息をしない', true),
+    Question('ブルドックの目玉は飛び出してしまうことがある', true),
+    Question('シマウマの鳴き声は『ヒヒーン！！』である', false),
   ];
 
   void nextQuestion() {

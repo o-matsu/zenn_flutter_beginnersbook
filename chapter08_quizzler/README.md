@@ -1,19 +1,11 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# chapter.8 クラスを活用しよう ~ Quizzler ~
 
+簡単な○×クイズのアプリです。
 
-# Quizzler Challenge - Starting Files
+## このチャプターで学べること
 
-- Clone this repository to your local system.
+1. クラスの使い方
 
-- Read the docs for the package we're using:
+## Screenshot
 
-[rFluttter Alert](https://pub.dartlang.org/packages/rflutter_alert)
-
-- Follow the step by step challenges.
-
-
-
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+![](https://storage.googleapis.com/zenn-user-upload/5sk5gymvp7ydu87cmr5fyz6q2xvr)

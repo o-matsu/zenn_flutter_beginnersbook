@@ -12,7 +12,6 @@ class Quizzler extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.grey.shade900,
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 10.0),
@@ -40,10 +39,20 @@ class _QuizPageState extends State<QuizPage> {
       if (quizBrain.isFinished()) {
         //TODO: Step 4 Part A - show an alert using rFlutter_alert (remember to read the docs for the package!)
         Alert(
-                context: context,
-                title: "Finished!",
-                desc: "You\'ve reached the end of the quiz.")
-            .show();
+          context: context,
+          title: "終了！",
+          desc: "おつかれさまでした。",
+          buttons: [
+            DialogButton(
+              child: Text(
+                "再挑戦",
+                style: TextStyle(color: Colors.white, fontSize: 20),
+              ),
+              onPressed: () => Navigator.pop(context),
+              width: 120,
+            )
+          ],
+        ).show();
         //HINT! Step 4 Part B is in the quiz_brain.dart
         //TODO: Step 4 Part C - reset the questionNumber,
         quizBrain.reset();
@@ -83,7 +92,6 @@ class _QuizPageState extends State<QuizPage> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 25.0,
-                  color: Colors.white,
                 ),
               ),
             ),
@@ -95,12 +103,10 @@ class _QuizPageState extends State<QuizPage> {
             child: FlatButton(
               textColor: Colors.white,
               color: Colors.green,
-              child: Text(
-                'True',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20.0,
-                ),
+              child: Icon(
+                Icons.fiber_manual_record_outlined,
+                color: Colors.white,
+                size: 50,
               ),
               onPressed: () {
                 //The user picked true.
@@ -114,12 +120,10 @@ class _QuizPageState extends State<QuizPage> {
             padding: EdgeInsets.all(15.0),
             child: FlatButton(
               color: Colors.red,
-              child: Text(
-                'False',
-                style: TextStyle(
-                  fontSize: 20.0,
-                  color: Colors.white,
-                ),
+              child: Icon(
+                Icons.close,
+                color: Colors.white,
+                size: 50,
               ),
               onPressed: () {
                 //The user picked false.
