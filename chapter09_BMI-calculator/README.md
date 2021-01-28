@@ -12,6 +12,6 @@
 
 ## Screenshot
 
-![](https://storage.googleapis.com/zenn-user-upload/7x3v7pkcq2yd9085mvqnyymwd1q4 =250x)
-![](https://storage.googleapis.com/zenn-user-upload/u37r56w8erpsqexf5pm11pp1js3i =250x)
+![](https://storage.googleapis.com/zenn-user-upload/7x3v7pkcq2yd9085mvqnyymwd1q4)
+![](https://storage.googleapis.com/zenn-user-upload/u37r56w8erpsqexf5pm11pp1js3i)
 
